@@ -93,85 +93,86 @@
         </ul>
       </div>
       <div class="main container">
-        <div class="row">
+        <div class="row align-items-stretch">
+          <!-- Column 1 -->
           <div class="col-8">
-            <div class="card">
+            <div class="card h-100">
               <div class="card-body">
-                <h5 class="card-title">sales overview</h5>
+                <h5 class="card-title">Sales Overview</h5>
 
                 <div class="container-card">
                   <div class="row">
-                    <div class="col-3">
-                      <div
-                        style="
-                          text-align: center;
-                          border-right: 1px solid #d3c5c5;
-                          padding-top: 20px;
-                        "
-                      >
-                        <i
-                          class="fa-solid fa-chart-simple"
-                          style="color: #2202c5; font-size: 40px"
-                        ></i>
-                        <div class="uuu">
+                    <!-- Repeating Columns -->
+                    <div class="col-3 border-left">
+                      <!-- Icon at the top -->
+                      <div class="row">
+                        <div class="col text-center">
+                          <i
+                            class="fa-solid fa-list icon icon-1"
+                            style="color: #3767b9"
+                          ></i>
+                        </div>
+                      </div>
+                      <!-- Money and cost in the same row with space -->
+                      <div class="row align-items-center mt-2">
+                        <div class="col">
                           <h5>₹ 1000</h5>
-                          <p>Sales</p>
+                        </div>
+                        <div class="col text-end">
+                          <h6>Sales</h6>
                         </div>
                       </div>
                     </div>
-
-                    <div class="col-3">
-                      <div
-                        style="
-                          text-align: center;
-                          border-right: 1px solid #d3c5c5;
-                          padding-top: 20px;
-                        "
-                      >
-                        <i
-                          class="fa-solid fa-money-bill-trend-up"
-                          style="color: #2202c5; font-size: 40px"
-                        ></i>
-                        <div class="uuu">
+                    <div class="col-3 border-left">
+                      <!-- Icon at the top -->
+                      <div class="row">
+                        <div class="col text-center">
+                          <i
+                            class="fa-solid fa-chart-column icon icon-2"
+                            style="color: #74c0fc"
+                          ></i>
+                        </div>
+                      </div>
+                      <!-- Money and cost in the same row with space -->
+                      <div class="row align-items-center mt-2">
+                        <div class="col">
                           <h5>₹ 1000</h5>
-                          <p style="padding-left: 20px">Revenue</p>
+                        </div>
+                        <div class="col text-end">
+                          <h6>Revenue</h6>
                         </div>
                       </div>
                     </div>
-
-                    <div class="col-3">
-                      <div
-                        style="
-                          text-align: center;
-                          border-right: 1px solid #d3c5c5;
-                          padding-top: 20px;
-                        "
-                      >
-                        <i
-                          class="fa-solid fa-arrow-up-right-dots"
-                          style="color: #2022c5; font-size: 40px"
-                        ></i>
-                        <div class="uuu">
+                    <div class="col-3 border-left">
+                      <!-- Icon at the top -->
+                      <div class="row">
+                        <div class="col text-center">
+                          <i class="fa-solid fa-arrow-up icon icon-3"></i>
+                        </div>
+                      </div>
+                      <!-- Money and cost in the same row with space -->
+                      <div class="row align-items-center mt-2">
+                        <div class="col">
                           <h5>₹ 1000</h5>
-                          <p>Profit</p>
+                        </div>
+                        <div class="col text-end">
+                          <h6>Profit</h6>
                         </div>
                       </div>
                     </div>
-
                     <div class="col-3">
-                      <div
-                        style="
-                          text-align: center;
-                          border-right: 1px solid #d3c5c5;
-                          padding-top: 20px;
-                        "
-                      >
-                        <i
-                          class="fa-solid fa-house-chimney"
-                          style="color: #2022c5; font-size: 40px"
-                        ></i>
-                        <div class="uuu">
+                      <!-- Icon at the top -->
+                      <div class="row">
+                        <div class="col text-center">
+                          <i class="fa-solid fa-house-chimney icon"></i>
+                        </div>
+                      </div>
+                      <!-- Money and cost in the same row with space -->
+                      <div class="row align-items-center mt-2">
+                        <div class="col">
                           <h5>₹ 1000</h5>
+                        </div>
+                        <div class="col text-end">
                           <p>Cost</p>
                         </div>
                       </div>
@@ -182,31 +183,24 @@
             </div>
           </div>
 
+          <!-- Column 2 -->
           <div class="col-4">
-            <div class="card">
+            <div class="card h-100">
               <div class="card-body">
-                <h5 class="card-title">Recent Orders</h5>
-                <div class="ooo">
-                  <div
-                    style="
-                      text-align: center;
-                      border-right: 1px solid #d3c5c5;
-                      padding-right: 30px;
-                    "
-                  >
-                    <i
-                      class="fa-solid fa-chart-line"
-                      style="color: #74c0fc"
-                    ></i>
-                    <h4>868</h4>
+                <h5 class="card-title">Purchase Overview</h5>
+
+                <div class="row">
+                  <!-- Column 1 -->
+                  <div class="col text-center border-left">
+                    <i class="fa-solid fa-house-chimney"></i>
+                    <h4 class="mt-2">868</h4>
                     <p>Quantity in Hand</p>
                   </div>
-                  <div style="text-align: center">
-                    <i
-                      class="fa-solid fa-chart-line"
-                      style="color: #74c0fc"
-                    ></i>
-                    <h4>868</h4>
+
+                  <!-- Column 2 -->
+                  <div class="col text-center">
+                    <i class="fa-solid fa-house-chimney"></i>
+                    <h4 class="mt-2">868</h4>
                     <p>Quantity in Hand</p>
                   </div>
                 </div>
@@ -214,118 +208,116 @@
             </div>
           </div>
         </div>
-        <div class="row mt-2">
+
+        <!-- Row two -->
+        <div class="row align-items-stretch">
+          <!-- Column 1 -->
           <div class="col-8">
-            <div class="card">
+            <div class="card h-100">
               <div class="card-body">
-                <h5 class="card-title">Purchase overview</h5>
+                <h5 class="card-title">Sales Overview</h5>
 
                 <div class="container-card">
                   <div class="row">
-                    <div class="col-3">
-                      <div
-                        style="
-                          text-align: center;
-                          border-right: 1px solid #d3c5c5;
-                          padding-right: 20px;
-                        "
-                      >
-                        <i
-                          class="fa-solid fa-scale-unbalanced-flip"
-                          style="color: #74c0fc; font-size: 40px"
-                        ></i>
-                        <div class="uuu">
-                          <h5>1000</h5>
-                          <p>Purchase</p>
+                    <!-- Repeating Columns -->
+                    <div class="col-3 border-left">
+                      <!-- Icon at the top -->
+                      <div class="row">
+                        <div class="col text-center">
+                          <i
+                            class="fa-solid fa-list icon icon-1"
+                            style="color: #3767b9"
+                          ></i>
+                        </div>
+                      </div>
+                      <!-- Money and cost in the same row with space -->
+                      <div class="row align-items-center mt-2">
+                        <div class="col">
+                          <h5>₹ 1000</h5>
+                        </div>
+                        <div class="col text-end">
+                          <h6>Sales</h6>
                         </div>
                       </div>
                     </div>
-
-                    <div class="col-3">
-                      <div
-                        style="
-                          text-align: center;
-                          border-right: 1px solid #d3c5c5;
-                        "
-                      >
-                        <i
-                          class="fa-solid fa-chart-line"
-                          style="color: #74c0fc; font-size: 40px"
-                        ></i>
-                        <div class="uuu">
+                    <div class="col-3 border-left">
+                      <!-- Icon at the top -->
+                      <div class="row">
+                        <div class="col text-center">
+                          <i
+                            class="fa-solid fa-chart-column icon icon-2"
+                            style="color: #74c0fc"
+                          ></i>
+                        </div>
+                      </div>
+                      <!-- Money and cost in the same row with space -->
+                      <div class="row align-items-center mt-2">
+                        <div class="col">
                           <h5>₹ 1000</h5>
+                        </div>
+                        <div class="col text-end">
+                          <h6>Revenue</h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-3 border-left">
+                      <!-- Icon at the top -->
+                      <div class="row">
+                        <div class="col text-center">
+                          <i class="fa-solid fa-arrow-up icon icon-3"></i>
+                        </div>
+                      </div>
+                      <!-- Money and cost in the same row with space -->
+                      <div class="row align-items-center mt-2">
+                        <div class="col">
+                          <h5>₹ 1000</h5>
+                        </div>
+                        <div class="col text-end">
+                          <h6>Profit</h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <!-- Icon at the top -->
+                      <div class="row">
+                        <div class="col text-center">
+                          <i class="fa-solid fa-house-chimney icon"></i>
+                        </div>
+                      </div>
+                      <!-- Money and cost in the same row with space -->
+                      <div class="row align-items-center mt-2">
+                        <div class="col">
+                          <h5>₹ 1000</h5>
+                        </div>
+                        <div class="col text-end">
                           <p>Cost</p>
                         </div>
                       </div>
                     </div>
-
-                    <div class="col-3">
-                      <div
-                        style="
-                          text-align: center;
-                          border-right: 1px solid #d3c5c5;
-                        "
-                      >
-                        <i
-                          class="fa-solid fa-chart-line"
-                          style="color: #74c0fc; font-size: 40px"
-                        ></i>
-                        <div class="uuu">
-                          <h5>₹ 1000</h5>
-                          <p>Cancel</p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col-3">
-                      <div style="text-align: center">
-                        <i
-                          class="fa-solid fa-chart-line"
-                          style="
-                            color: #74c0fc;
-                            font-size: 40px;
-                            background-color: #ccc;
-                            border-radius: 10px;
-                            padding: 10px;
-                          "
-                        ></i>
-                        <div class="uuu">
-                          <h5>₹ 1000</h5>
-                          <p>Return</p>
-                        </div>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
+          <!-- Column 2 -->
           <div class="col-4">
-            <div class="card">
+            <div class="card h-100">
               <div class="card-body">
-                <h5 class="card-title">Recent Orders</h5>
-                <div class="ooo">
-                  <div
-                    style="
-                      text-align: center;
-                      border-right: 1px solid #ccc;
-                      padding-right: 30px;
-                    "
-                  >
-                    <i
-                      class="fa-solid fa-chart-line"
-                      style="color: #74c0fc"
-                    ></i>
-                    <h4>868</h4>
+                <h5 class="card-title">Purchase Overview</h5>
+
+                <div class="row">
+                  <!-- Column 1 -->
+                  <div class="col text-center border-left">
+                    <i class="fa-solid fa-house-chimney"></i>
+                    <h4 class="mt-2">868</h4>
                     <p>Quantity in Hand</p>
                   </div>
-                  <div style="text-align: center">
-                    <i
-                      class="fa-solid fa-chart-line"
-                      style="color: #74c0fc"
-                    ></i>
-                    <h4>868</h4>
+
+                  <!-- Column 2 -->
+                  <div class="col text-center">
+                    <i class="fa-solid fa-house-chimney"></i>
+                    <h4 class="mt-2">868</h4>
                     <p>Quantity in Hand</p>
                   </div>
                 </div>
@@ -334,6 +326,7 @@
           </div>
         </div>
 
+        <!-- Row three -->
         <div class="row">
           <div class="col-8 mt-2">
             <div class="card">

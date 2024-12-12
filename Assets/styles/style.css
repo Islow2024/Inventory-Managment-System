@@ -2,6 +2,8 @@ body{
     /* background-color: #f0f1f3; */
     background-color: #f0f1f3;
     color:#465d8b;
+    margin: 0;
+    overflow-x: hidden;
 }
 
 .contianer-1{
@@ -111,20 +113,33 @@ body{
     /* overflow: hidden; */
 }
 
-.uuu{
-    
-    display: flex;
-    /* align-items: center; */
-    justify-content: space-around;
+
+/* Icons */
+.icon{
+    font-size: 40px;
+    background-color: #e8f1fd;
     padding: 10px;
+    border-radius: 10px;
 }
 
-.ooo{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.icon-1{
+background-color: #e8f1fd;
+}
+
+.icon-2{
+    background-color: #90ece8;
+}
+
+.icon-3{
+    background-color: #ff9100;
     
 }
+.border-left{
+    border-right: 1px solid lightgray;
+}
+
+
+
 
 .item-card {
     display: flex;
