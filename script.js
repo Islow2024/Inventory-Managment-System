@@ -286,3 +286,14 @@ var options = {
 //   var charts = new ApexCharts(document.querySelector("#chart"), option);
 //   charts.render();
 // });
+
+
+//  document.getElementById('addProductForm').addEventListener('submit', function(event) {
+//         event.preventDefault();
+//         // Handle form data here
+//         const formData = new FormData(this);
+//         console.log('Product Data:', Object.fromEntries(formData));
+//         // Optionally, close the modal after submission
+//         const modal = bootstrap.Modal.getInstance(document.getElementById('addProductModal'));
+//         modal.hide();
+//       });
